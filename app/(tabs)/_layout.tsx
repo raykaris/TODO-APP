@@ -1,7 +1,7 @@
-import { View, Text } from 'react-native'
-import React from 'react'
-import { Tabs } from 'expo-router'
-import { Ionicons } from '@expo/vector-icons'
+import { View, Text } from 'react-native';
+import React from 'react';
+import { Tabs } from 'expo-router';
+import { Ionicons } from '@expo/vector-icons';
 
 const TabsLayout = () => {
   return (
@@ -14,8 +14,8 @@ const TabsLayout = () => {
                 borderTopWidth: 1,
                 borderTopColor: "white",
                 height: 90,
-                paddingBottom: 30,
-                paddingTop: 10,
+                paddingBottom: 40,
+                paddingTop: 1,
             },
             tabBarLabelStyle: {
                 fontSize: 12,
